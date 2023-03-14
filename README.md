@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/gallery/0hSjfCw.gif' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDNlNGQ3ZTVlMmFkNDFiOWU1NGI4YjJmZjYzNDVmZTk5ZjU3MGYzNiZjdD1n/goQDh3qLrY0iVCZ7H9/giphy.gif' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
 
 
 GIF created with Imgur  
