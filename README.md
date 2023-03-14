@@ -25,14 +25,13 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [X] Improve the flipping of the card to make it 3D
-* [X] 
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/gallery/0hSjfCw' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/gallery/0hSjfCw.gif' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
 
 
 GIF created with Imgur  
