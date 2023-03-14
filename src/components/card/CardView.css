@@ -1,0 +1,86 @@
+.flip-card {
+    margin-top: 3rem;
+    width: 28rem;
+    height: 14rem;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    border-radius: 1.2rem;
+}
+
+
+.dir-btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.btn-next {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+.flip-card.Easy :where(.flip-card-front, .flip-card-back) {
+    background-color: rgba(24, 73, 24, 0.45);
+}
+
+.flip-card.Medium :where(.flip-card-front, .flip-card-back) {
+    background-color: rgba(230, 224, 51, 0.45);
+}
+
+.flip-card.Hard :where(.flip-card-front, .flip-card-back) {
+    background-color: rgba(166, 57, 51, 0.42);
+}
+
+.flip-card :where(.flip-card-front, .flip-card-back) {
+    font-weight: 600;
+    place-items: center;
+    font-size: 1.3rem;
+    margin: 0.6rem auto;
+    cursor: pointer;
+    display: grid;
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    background-color: inherit;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 1.2rem;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 30rem;
+    height: 18rem;
+    transition: transform linear 0.2s;
+    
+}
+
+.flip-card .flip-card-front {
+    position: absolute;
+    transform: rotateX(90deg);
+}
+
+.flip-card .flip-card-back {
+    position: absolute;
+    transition-delay: 0.2s;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.front .flip-card-front {
+    transform: rotateX(0deg);
+    transition-delay: 0.2s;
+}
+
+.front .flip-card-back {
+    transform: rotateX(90deg);
+    transition-delay: 0s;
+}
+

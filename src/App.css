@@ -1,0 +1,10 @@
+html{
+  background: url(assets/universe.jpg);
+  background-color: rgb(157, 219, 235);
+  color: black;
+}
+
+body {
+
+  background-attachment: cover;
+}

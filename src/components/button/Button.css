@@ -1,0 +1,16 @@
+.btn {
+
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(24, 93, 95);
+    color: white;
+    padding: 0.3rem;
+    font-weight: 400;
+}
+
+
+
+
+

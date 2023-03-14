@@ -1,0 +1,57 @@
+.answer-form {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7rem;
+    font-weight: bold;
+}
+
+.answer-form > .answer-input {
+    border-radius: 0.4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    color: rgb(159, 44, 44);
+}
+
+.answer-form > .answer-input:focus {
+    outline: 3px solid rgb(102, 182, 222);
+}
+
+.submit-btn {
+    cursor: pointer;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(66, 65, 65)
+    ;
+}
+
+.ans-checker {
+    color: transparent;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    height: 3rem;
+    width: 18rem;
+    padding-top: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.ans-checker.false {
+    background-color: red;
+    color: white;
+
+
+}
+.ans-checker.true {
+    background-color: rgb(71, 164, 71);
+    color: white;
+
+}
+
+.streak-container {
+    margin-top: 2rem;
+}
